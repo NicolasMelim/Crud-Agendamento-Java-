@@ -1,0 +1,87 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f5;
+}
+
+header h1 {
+  background-color: #4caf50; /* Cor de fundo */
+  color: white; /* Texto branco */
+  text-align: center;
+  padding: 1rem;
+  font-size: 2rem;
+  text-transform: uppercase; /* Coloca o texto em maiúsculas */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Sombras para destaque */
+}
+
+main {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Efeito de profundidade */
+}
+h1,
+h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+/* Estilos do formulário */
+label {
+  display: block;
+  margin: 0.5rem 0;
+  font-weight: bold;
+}
+
+input,
+textarea {
+  width: 90%;
+  padding: 0.8rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+textarea {
+  height: 100px;
+  resize: none; /* Desativa o redimensionamento */
+}
+
+button {
+  width: 100%;
+  padding: 0.8rem;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Lista de eventos */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  background-color: #f9f9f9;
+  margin: 0.5rem 0;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
